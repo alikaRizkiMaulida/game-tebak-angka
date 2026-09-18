@@ -41,3 +41,44 @@ Sebuah aplikasi permainan tebak angka berbasis web yang interaktif, responsif, d
 ├── script.js    # Logika game, manajemen storage, dan audio
 └── README.md    # Dokumentasi proyek
 ```
+
+📜 Cara Bermain
+Pilih Level: Tentukan tingkat kesulitan yang diinginkan (Easy, Medium, atau Hard).
+
+Tekan Tombol "Bermain": Sistem akan mengacak kombinasi angka rahasia sesuai level dan memulai hitung mundur timer.
+
+Tebak Angka: Klik tombol angka yang tersedia di layar untuk menyusun tebakan Anda:
+
+Kombinasi angka tidak memiliki digit yang berulang.
+
+Pengecekan tebakan dilakukan secara otomatis setelah panjang angka tebakan terpenuhi.
+
+Hasil:
+
+Jika Benar: Efek selebrasi konfeti & modal popup akan muncul, serta statistik kemenangan bertambah.
+
+Jika Salah: Layar bergetar (shake), status tebakan salah bertambah, dan Anda bisa mencoba lagi sebelum waktu habis.
+
+Jika Waktu Habis: Permainan berakhir (Game Over) dan jawaban asli akan ditampilkan.
+
+⚙️ Cara Menjalankan Proyek Secara Lokal
+Tidak memerlukan node environment atau build tools tambahan.
+
+Clone repositori ini:
+
+Bash
+git clone (https://github.com/alikaRizkiMaulida/game-tebak-angka.git)
+Masuk ke direktori proyek:
+
+Bash
+cd game-tebak-angka
+Buka file index.html:
+
+Cukup double click file index.html, atau
+
+Gunakan extension Live Server di VS Code untuk pengalaman pengembangan yang lebih baik.
+
+🧹 Reset Data Storage
+Untuk menghapus seluruh data statistik lokal (localStorage & sessionStorage), klik tombol "Hapus semua data" yang terdapat pada panel Local Stats, lalu refresh halaman web.
+
+📄 Lisensi: Proyek ini bebas digunakan dan dimodifikasi untuk tujuan pembelajaran (Open Source).
